@@ -70,7 +70,7 @@ public class gui extends JFrame {
 		
 		JTextField alphabet = new JTextField();
 		alphabet.setEditable(false);
-		alphabet.setEnabled(false);
+		alphabet.setEnabled(true);
 		alphabet.setBounds(310, 234, 180, 50);
 		hiddenWord.add(alphabet);
 		
